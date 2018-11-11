@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 
     //attach click events
-    for (var i = 0; i < items.length; i++) {
+    for (var i = 0; i < currentDate; i++) {
         items[i].addEventListener('click', clickHandler);
     }
 });
